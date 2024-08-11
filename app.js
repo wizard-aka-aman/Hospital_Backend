@@ -14,7 +14,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","http://localhost:5174"],
+    origin: ["http://localhost:5173","http://localhost:5174" , "https://hospital-frontend-jl1i.onrender.com"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
